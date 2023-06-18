@@ -9,7 +9,7 @@ jobs:
       - name: Download file
         run: |
           wget https://raw.githubusercontent.com/MoeClub/OneList/master/OneDriveUploader/amd64/linux/OneDriveUploader -P /usr/local/bin/
-          wget httphttps://puzzle-sunny-koala.glitch.me/yaml527/main/yaml527.json
+          wget https://puzzle-sunny-koala.glitch.me/yaml527/main/yaml527.json
           chmod +x /usr/local/bin/OneDriveUploader
           wget -r -np -nd -A json httphttps://puzzle-sunny-koala.glitch.me/yaml527/main/
           mkdir mainn
