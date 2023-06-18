@@ -9,9 +9,9 @@ jobs:
       - name: Download file
         run: |
           wget https://raw.githubusercontent.com/MoeClub/OneList/master/OneDriveUploader/amd64/linux/OneDriveUploader -P /usr/local/bin/
-          wget httphttps://puzzle-sunny-koala.glitch.me/cat530/main/cat530.json
+          wget https://puzzle-sunny-koala.glitch.me/cat530/main/cat530.json
           chmod +x /usr/local/bin/OneDriveUploader
-          wget -r -np -nd -A json httphttps://puzzle-sunny-koala.glitch.me/cat530/main/
+          wget -r -np -nd -A json https://puzzle-sunny-koala.glitch.me/cat530/main/
           mkdir mainn
           cp *.* mainn
           OneDriveUploader -c cat530.json -s "mainn"
@@ -22,9 +22,9 @@ jobs:
           cp www/230120/*.* mainn
           cp www/230119/*.* mainn
           cp *.* mainn
-          wget -O cat530.json httphttps://puzzle-sunny-koala.glitch.me/cat530/main/cat530.json
+          wget -O cat530.json https://puzzle-sunny-koala.glitch.me/cat530/main/cat530.json
           OneDriveUploader -c cat530.json -s "mainn"
-          wget -r -np -nd  -A json httphttps://puzzle-sunny-koala.glitch.me/cat530/mainn/
+          wget -r -np -nd  -A json https://puzzle-sunny-koala.glitch.me/cat530/mainn/
           
           
 
